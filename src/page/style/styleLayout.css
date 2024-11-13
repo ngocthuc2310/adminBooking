@@ -1,0 +1,29 @@
+.admin {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-right: 2px solid #8c8080;
+}
+.menu > * {
+  margin: 8px;
+}
+.admin h3 {
+  text-align: center;
+  color: #290ce7;
+}
+.logo {
+  border-right: 1px solid #8c8080;
+  border-bottom: 1px solid #8c8080;
+}
+.tt {
+  border-bottom: 1px solid #8c8080;
+}
+.admin a {
+  text-decoration: none;
+}

@@ -1,0 +1,44 @@
+.map {
+  display: flex;
+  gap: 2px;
+}
+.map > div {
+  width: 24%;
+  border: none;
+  border-radius: 9px;
+  margin: 9px;
+  box-shadow: 1px 1px 2px 2px #d9cdcd;
+  padding: 2px;
+}
+.main {
+  border-radius: 9px;
+  margin: 8px 0 0 8px;
+  box-shadow: 3px 3px 3px 4px #c1b8b8;
+  border: none;
+  padding: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #bfb8b8;
+}
+tr {
+  border: 1px solid #bfb8b8;
+}
+th {
+  border-left: 1px solid #bfb8b8;
+}
+.main h2 {
+  text-align: left;
+  font-weight: 400;
+}
+.map > div > div:nth-last-of-type(1) {
+  text-align: right;
+}
+.map > div > div:nth-of-type(1),
+.map > div > div:nth-of-type(2) {
+  text-align: left;
+}
+.map > div > div:nth-of-type(2) {
+  font-size: 25px;
+}

@@ -1,0 +1,25 @@
+const link = "http://localhost:5000";
+
+exports.topkhuvuc = link + "/topkhuvuc";
+exports.countbytype = link + "/countbytype";
+exports.toprating = link + "/toprating";
+exports.search = link + "/search";
+exports.logint = link + "/login";
+exports.signup = link + "/signup";
+exports.book = link + "/bookroom";
+exports.booking = link + "/book";
+exports.updateuser = link + "/updateuser";
+exports.transaction = link + "/transaction";
+exports.topmap = link + "/topmap";
+exports.listTransaction = link + "/listtransaction";
+exports.listHotel = link + "/listhotel";
+exports.addHotel = link + "/addhotel";
+exports.deleteHotel = link + "/deletehotel";
+exports.listroom = link + "/listroom";
+exports.addroom = link + "/addroom";
+exports.deleteroom = link + "/deleteroom";
+exports.users = link + "/users";
+exports.hotelinfo = link + "/hotelinfo";
+exports.roominfo = link + "/roominfo";
+exports.updatehotel = link + "/updatehotel";
+exports.updateroom = link + "/updateroom";
